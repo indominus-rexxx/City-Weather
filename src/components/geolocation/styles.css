@@ -1,0 +1,34 @@
+.city-form {
+    width: 40%;
+    display: inline-block;
+    margin-left: 5%;
+    padding-left: 10px;
+    min-width: 100px;
+}
+
+ul {
+    overflow: hidden;
+    display: block;
+}
+
+h3 {
+    color: #818182;
+    text-align: center;
+}
+
+li:hover {
+    text-align: center;
+    transform: scale(1.2);
+}
+
+.add-cur-city-btn {
+    margin: 5px;
+    padding: 10px;
+}
+
+@media(max-width: 1650px) {
+    .city-form {
+        width: 900px;
+        margin-left: 10px;
+    }
+}

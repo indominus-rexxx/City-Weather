@@ -1,0 +1,39 @@
+table {
+    text-align: center;
+    font-weight: bold;
+}
+
+.table-city {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    min-width: 900px;
+}
+
+.btn-del {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-del:hover {
+    background-color: darkgray;
+}
+
+th {
+    min-width: 150px;
+}
+
+td {
+    vertical-align: middle !important;
+    max-width: 150px;
+    color: rgb(165 91 97);
+}
+
+.del-button {
+    vertical-align: middle !important;
+    min-width: 0;
+}
