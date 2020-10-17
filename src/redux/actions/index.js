@@ -84,9 +84,6 @@ const loadWeather = async city => {
     }
 
     catch (e) {
-        // if (+e.message.match(/\d+/) === 429) {
-        //     API_KEY = keys[1]
-        // }
         return {}
     };
 };
