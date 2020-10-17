@@ -28,7 +28,7 @@ li:hover {
 
 @media(max-width: 1650px) {
     .city-form {
-        width: 900px;
-        margin-left: 10px;
+        width: 100%;
+        margin: 0 auto;
     }
 }
